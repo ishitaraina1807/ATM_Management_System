@@ -18,7 +18,7 @@ import threading
 
 
 # Connect to MongoDB Atlas. please replace this with your own
-client = pymongo.MongoClient('mongodb://127.0.0.1:27018/notes')
+client = pymongo.MongoClient('mongodb://127.0.0.1:27017/atm-users')
 # Database name
 db = client["Atm_management"]
 
